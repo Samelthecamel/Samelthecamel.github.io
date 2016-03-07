@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> The force awakens
+		</title>
+		<style>
+		body {background-image:url("http://www.wired.com/wp-content/uploads/2015/11/star-wars-world-builder-kylo-ren.jpg");
+		background-repeat: no-repeat;}
+		p {font-family: Arial;
+				text-align: center;
+				background-color: black;
+				padding-right:10%;
+				color: yellow;
+				padding-left:10%;
+				padding-top:3%;
+				padding-bottom:3%;
+				border-radius:25px;
+				}
+				h3 {font-family: Arial;
+				text-align: center;
+				color: yellow;
+				background-color: yellow;
+				padding-right:10%;
+				padding-left:10%;
+				padding-top:3%;
+				padding-bottom:3%;
+				border-radius:10px;
+				}
+		</style>
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+		<body>
+		<div class="container">
+			<div class="jumbotron">
+			<h1>The Force Awakens</h1> 
+			</div>
+		<div class="container">
+  <h2>Menu</h2>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#menu1">Movie Trailer</a></li>
+    <li><a data-toggle="tab" href="#menu2">About Star Wars</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>The new Star wars movie has tooken more than ten years to make, so it is a good one!</p>
+	  <img src="http://assets.rollingstone.com/assets/2015/moviereview/star-wars-the-force-awakens-20151216/220042/medium_rect/1449693800/720x405-des0135.PUB.4K.final.1267.jpg" style="width:1120px; height: 626px;">
+	  
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Movie Trailer</h3>
+      <center><iframe width="1120" height="626" src="https://www.youtube.com/embed/sGbxmsDFVnE" frameborder="0" allowfullscreen></iframe><center>
+	  
+	  
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>About Star Wars</h3>
+      <p>Previous movie trailers of Star wars</p>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/I6hOlI9cg4o" frameborder="0" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/gYbW1F_c9eM" frameborder="0" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/5UnjrG_N8hU" frameborder="0" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/H38MpZtujJc" frameborder="0" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JNwNXF9Y6kY" frameborder="0" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/5UfA_aKBGMc" frameborder="0" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/wCc2v7izk8w" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</html>
