@@ -1,134 +1,519 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title> 
-		</title>
-		<style>
-		body {background-image:url("http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/11/Cool-Wallpaper-HD-5.jpg");
-		background-repeat: repeat;}
-		p {font-family: Arial;
+
+<head>
+	<title>
+	
+	
+	</title>
+	
+	<style>
+	li{
+	color: lightblue;
+	}
+	h3{
+	color: lightblue;
+	}
+	h1 {font-family: Arial;
 				text-align: center;
-				background-color: yellow;
+				background-color: brown;
 				padding-right:10%;
 				color: black;
 				padding-left:10%;
 				padding-top:3%;
 				padding-bottom:3%;
 				border-radius:5px;
+		}
+		
+		ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {
+    
+}
+
+ul.tab li a:focus, .active {
+    
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    
+    border-top: none;
+}
+	body {
+	color: lightblue;
+  background-image:url("https://s.graphiq.com/sites/default/files/2307/media/images/Dark_Red_429990_i0.png");
+}
+	button {
+    background-color: lightblue; /* Green */
+    border: none;
+    color: orange;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	}
+
+canvas {
+				padding: 0;
+				margin: auto;
+				display: block;
+				width: 800px;
+				height: 800px;
+				position: absolute;
+				top: 1900px;
+				bottom: 0;
+				left: 0;
+				right: 0;
 				}
-				h3 {font-family: Arial;
-				text-align: center;
-				text-color: yellow;
-				background-color: black;
-				padding-right:10%;
-				padding-top:3%;
-				padding-bottom:3%;
-				border-radius:10px;
-				}
-				a {text-color: white;
-				}
-		</style>
-		<meta charset="utf-8">
+	</style>
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	</head>
-		<body>
-		<div class="container">
+</head>
+
+<body>
+<div class="container">
 			<div class="jumbotron">
-			<b><h1>Portfolio</h1></b>
+			<table>
+			<tr>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			<td><center><img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:100px;"></center></td>
+			</tr>
+			</table>
+			<b><h1>BURRITO BELL</h1></b>
 			</div>
-		<div class="container">
-  <h2>Menu</h2>
+			
+			 <h2>Menu</h2>
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-    <li><a data-toggle="tab" href="#menu1">Image minipulation</a></li>
-    <li><a data-toggle="tab" href="#menu2">3D models</a></li>
-	<li><a data-toggle="tab" href="#menu3">Round Robin 1</a></li>
+    <li><a data-toggle="tab" href="#menu1">Locations</a></li>
+    <li><a data-toggle="tab" href="#menu2">Menu</a></li>
+	<li><a data-toggle="tab" href="#menu3">Create your own burrito</a></li>
 	
-	<li><a data-toggle="tab" href="#menu4">Hardware Chart</a></li>
-	<li><a data-toggle="tab" href="#menu5">Unreal 4</a></li>
   </ul>
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-	  <video width="1020" height="940" controls>
-  <source src="Free-Converter.com-0001-0135-1872221.mp4" type="video/mp4">
-  
-  Your browser does not support the video tag.
-</video>
-      
+       <img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:275px;" align="right">
+	   <img src="https://sites.google.com/a/stemhigh.org/bat-photoshop-battle/home/burritobell_logo.png?attredirects=0" style="width:275px;" align="left">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
 	
     <div id="menu1" class="tab-pane fade">
-	  <img src="https://sites.google.com/site/asdfghjkllkjhgfdsfghjm/home/BigFoot1.png" style="width:1120px; ">
-	  <img src="https://sites.google.com/site/asdfghjkllkjhgfdsfghjm/home/Potatocar.png" style="width:1120px; ">
-	 
+      
+			<h2>Locations</h2>
+			<ul class="tab">
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'London')" ondblclick="openCity(event, 'palce')">Streets at Southglenn</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')" ondblclick="openCity(event, 'palce')">The Market at Southpark</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')" ondblclick="openCity(event, 'palce')">Southlands</a></li>
+</ul>
+
+<div id="London" class="tabcontent">
+  <p>E Arapahoe Rd, S University Blvd</p>
+ <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.2423213216994!2d-104.96514828417182!3d39.592140979469434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c816831d65e65%3A0x7abe80e011c91f29!2sThe+Streets+at+SouthGlenn!5e1!3m2!1sen!2sus!4v1475083426078" width="1100" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div id="Paris" class="tabcontent">
+<p>W Minral Ave, S Brodway</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1941.770064915545!2d-104.98981293199259!3d39.572885894912154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c822c0dace575%3A0x49852212f98e27c9!2sThe+Market+at+Southpark+Shopping+Center!5e1!3m2!1sen!2sus!4v1475083642553" width="1100" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+<p> Centennial Blvd, S Brodway </p>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.482937086038!2d-104.71102548417143!3d39.605631079467585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c8c7c8d2ef1a1%3A0x839fee9226600ffa!2sSouthlands!5e1!3m2!1sen!2sus!4v1475083890544" width="1100" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+</div>
+<div id="palce" class="tabcontent">
+  
+</div>	 
+<br><br><br><br><br><br><br><br><br><br><br>
     </div>
 	
 	<div id="menu2" class="tab-pane fade">
-      <img src="https://sites.google.com/site/asdfghjkllkjhgfdsfghjm/home/final_car.png" style="width:1120px; ">
-	  <img src="https://sites.google.com/a/stemhigh.org/ffdghbgfjnmcghjc/home/PCU_card.png" style="width:1120px; ">
+      <h3>Menu</h3>
+	  <br>
+	 <ol>
+	 <li>Single Burrito</li>
+	 <li>Two Burritos</li>
+	 <li>Three Burritos</li>
+	 <li>Burrito 12 pack</li>
+	 </ol>
+	 <br>
+	 <h4>Drinks</h4>
+	 <br>
+	 <ol>
+	 <li><b>Mountain Dew, Desert blast</b></li>
+	 <li><b>Moutnain Dew</b></li>
+	 <li><b>Dew Package</b><br> (Two Desert Blasts, four create your own burritos, and five Mountain Dews)</li>
+	 </ol>
+	 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
-	<div id="menu4" class="tab-pane fade">
-      <img src="https://sites.google.com/site/asdfghjkllkjhgfdsfghjm/home/hardware%20chart.PNG" style="width:1120px; ">
-      
-	  
-		
-	</div>
-	<div id="menu5" class="tab-pane fade">
-      <img src="https://sites.google.com/site/asdfghjkllkjhgfdsfghjm/home/unreal%20prodject.PNG" style="with1120">
-	  
-      
-	  
-		
-	</div>
 	<div id="menu3" class="tab-pane fade">
-      
-	  <div class="container">
-			<div class="jumbotron">
-			<h1>The Force Awakens</h1> 
-			</div>
-		<div class="container">
-  <h2>Menu</h2>
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home1">Home</a></li>
-    <li><a data-toggle="tab" href="#tab1">Movie Trailer</a></li>
-    <li><a data-toggle="tab" href="#tab2">About Star Wars</a></li>
-  </ul>
+      <h3>Make your own Burrito</h3>
+	  
+      <center><button onclick="setup() + tortia()">add Tortia</button>
+<button onclick="chicken()">add Chicken</button>
+<button onclick="beef()">add Beef</button>
+<button onclick="bacon()">add Bacon</button>
+<button onclick="pork()">add Pork</button>
+<br><br>
+<button onclick="rice()">add Rice</button>
+<button onclick="spiceyrice()">add Spicey Rice</button>
+<button onclick="coloredrice()">add Colored Rice</button>
+<br><br>
+<button onclick="americancheese()">add American Cheese</button>
+<button onclick="mot()">add Motserella Cheese</button>
+<br><br>
+<button onclick="brick()">add Brick</button>
+<button onclick="pizza()">add Pizza</button>
+<button onclick="razer()">add Razer blades</button>
+<button onclick="Meatballs()">add Meatballs</button>
+<br><br>
 
-  <div class="tab-content">
-    <div id="home1" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>The new Star wars movie has tooken more than ten years to make, so it is a good one!</p>
-	  <img src="http://assets.rollingstone.com/assets/2015/moviereview/star-wars-the-force-awakens-20151216/220042/medium_rect/1449693800/720x405-des0135.PUB.4K.final.1267.jpg" style="width:1120px; height: 626px;">
-	  
-    </div>
-    <div id="tab1" class="tab-pane fade">
-      <h3>Movie Trailer</h3>
-      <center><iframe width="1120" height="626" src="https://www.youtube.com/embed/sGbxmsDFVnE" frameborder="0" allowfullscreen></iframe><center>
-	  
-	  
-    </div>
-    <div id="tab2" class="tab-pane fade">
-      <h3>About Star Wars</h3>
-      <p>Previous movie trailers of Star wars</p>
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/I6hOlI9cg4o" frameborder="0" allowfullscreen></iframe>
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/gYbW1F_c9eM" frameborder="0" allowfullscreen></iframe>
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/5UnjrG_N8hU" frameborder="0" allowfullscreen></iframe>
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/H38MpZtujJc" frameborder="0" allowfullscreen></iframe>
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/JNwNXF9Y6kY" frameborder="0" allowfullscreen></iframe>
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/5UfA_aKBGMc" frameborder="0" allowfullscreen></iframe>
-	  <iframe width="560" height="315" src="https://www.youtube.com/embed/wCc2v7izk8w" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-	  
-      
-	  
-		
+<button onclick="bakedbeans()">add Baked Beans</button>
+<button onclick="greenbeans()">add Green Beans</button>
+
+<br><br>
+<button onclick="salsa1()">add Normal Salsa</button>
+<button onclick="salsa2()">add Hot Salsa</button>
+<button onclick="salsa3()">add Super Hot Pepper Sprey Salsa</button>
+<br> <br>
+<button onclick="setup()">Reset</button>
+<button onclick="setup() + fold()">Fold</button>
+<button onclick="setup() + fold() + foil()">Add Foil
+</center>
+
+<br>
 	</div>
 	
-</div>
+
+	
+	
+	
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
+			
+            
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+<script>
+
+function setup() {
+createCanvas(800, 800);
+}
+
+  
+function tortia() {
+ c = color(1000, 1000, 150);
+  fill(c);
+ellipse(400,400,800,800)
+}
+
+
+
+
+function chicken(){
+c = color(1000, 1000, 1000);
+  fill(c);
+rect(400,400,70,20,5,5,5,5)
+c = color(1000, 190, 150);
+  fill(c);
+ellipse(400,415,70,50)
+  
+  c = color(1000, 1000, 1000);
+  fill(c);
+rect(450,450,70,20,5,5,5,5)
+c = color(1000, 190, 150);
+  fill(c);
+ellipse(450,465,70,50)
+
+c = color(1000, 1000, 1000);
+  fill(c);
+rect(300,300,70,20,5,5,5,5)
+c = color(1000, 190, 150);
+  fill(c);
+ellipse(300,315,70,50)
+c = color(1000, 1000, 1000);
+  fill(c);
+rect(500,300,70,20,5,5,5,5)
+c = color(1000, 190, 150);
+  fill(c);
+ellipse(500,315,70,50)
+}
+
+
+function beef() {
+beef1()
+beef2()
+beef3()
+function beef1(){
+c = color(234,237,211 );
+  fill(c);
+ellipse(500,315,200,100)
+c = color(107,3,8 );
+
+  fill(c);
+ellipse(500,315,175,75)
+
+c = color(234,237,211 );
+  fill(c);
+ellipse(475,315,15,65)
+c = color(234,237,211 );
+  fill(c);
+ellipse(500,315,65,15)
+}
+function beef2(){
+c = color(234,237,211 );
+  fill(c);
+ellipse(700,315,200,100)
+c = color(107,3,8 );
+
+  fill(c);
+ellipse(700,315,175,75)
+
+c = color(234,237,211 );
+  fill(c);
+ellipse(675,315,15,65)
+c = color(234,237,211 );
+  fill(c);
+ellipse(700,315,65,15)
+}
+function beef3(){
+c = color(234,237,211 );
+  fill(c);
+ellipse(400,515,200,100)
+c = color(107,3,8 );
+
+  fill(c);
+ellipse(400,515,175,75)
+
+c = color(234,237,211 );
+  fill(c);
+ellipse(375,515,15,65)
+c = color(234,237,211 );
+  fill(c);
+ellipse(400,515,65,15)
+}
+function beef1(){
+c = color(234,237,211 );
+  fill(c);
+ellipse(500,315,200,100)
+c = color(107,3,8 );
+
+  fill(c);
+ellipse(500,315,175,75)
+
+c = color(234,237,211 );
+  fill(c);
+ellipse(475,315,15,65)
+c = color(234,237,211 );
+  fill(c);
+ellipse(500,315,65,15)
+}
+}
+function tortia() {
+ c = color(1000, 1000, 150);
+  fill(c);
+ellipse(400,400,800,800)
+}
+function bacon() {
+c = color(127, 54, 65);
+  fill(c);
+rect(200, 200, 500, 25);
+c = color(221, 82, 121);
+  fill(c);
+rect(200, 225, 500, 25);
+c = color(127, 54, 65);
+  fill(c);
+rect(200, 250, 500, 25);
+} 
+function pork() {
+c = color(140, 85, 30);
+  fill(c);
+  rect(300, 300, 55, 55, 20, 15, 10, 5);
+  rect(200, 500, 55, 55, 20, 15, 10, 5);
+  rect(400, 200, 55, 55, 20, 15, 10, 5);
+  rect(300, 500, 55, 55, 20, 15, 10, 5);
+  rect(200, 400, 55, 55, 20, 15, 10, 5);
+  rect(300, 400, 55, 55, 20, 15, 10, 5);
+  rect(200, 500, 55, 55, 20, 15, 10, 5);
+  rect(300, 400, 55, 55, 20, 15, 10, 5);
+}
+function rice() {
+c = color(209, 201, 123);
+  fill(c);
+ellipse(300, 300, 300, 300 );
+}
+function spiceyrice() {
+c = color(211, 154, 93);
+  fill(c);
+ellipse(400, 200, 300, 300);
+}
+function coloredrice() {
+c = color(255, 30, 112);
+  fill(c);
+ellipse(400, 300, 300, 300 );
+
+c = color(74, 201, 72);
+  fill(c);
+ellipse(200, 300, 300, 300 );
+
+c = color(255, 236, 71);
+  fill(c);
+ellipse(300, 200, 300, 300 );
+
+}
+function americancheese() {
+c = color(252, 235, 45);
+  fill(c);
+rect(300, 300, 300, 300 );
+}
+function mot() {
+c = color(242, 238, 203);
+  fill(c);
+rect(200, 400, 300, 300 );
+}
+function brick() {
+c = color(221, 94, 55);
+  fill(c);
+rect(200, 300, 500, 200, 20, 15, 10, 5);
+}
+function pizza() {
+c = color(214, 179, 92);
+  fill(c);
+arc(300, 300, 300, 300, PI, PI+QUARTER_PI);
+arc(200, 320, 300, 300, PI, PI+QUARTER_PI);
+arc(400, 500, 300, 300, PI, PI+QUARTER_PI);
+arc(200, 400, 300, 300, PI, PI+QUARTER_PI);
+arc(500, 300, 300, 300, PI, PI+QUARTER_PI);
+}
+function razer() {
+fill(84, 86, 89)
+rect(200, 300, 75, 200, 20, 15, 10, 5);
+rect(200+ 200, 400, 75, 200, 20, 15, 10, 5);
+rect(200, 200, 75, 200, 20, 15, 10, 5);
+rect(600, 300, 75, 200, 20, 15, 10, 5);
+}
+function Meatballs() {
+fill (73, 47, 2)
+ellipse(400, 400, 400, 400 );
+}
+function foil() {
+c = color(86, 82, 81);
+  fill(c);
+rect(225, 0, 300, 800, 20);
+}
+function fold() {
+c = color(1000, 1000, 150);
+  fill(c);
+rect(225, 0, 300, 800, 20);
+}
+function bakedbeans() {
+fill (43, 28, 3)
+ellipse(400, 400, 100, 200 );
+ellipse(400, 200, 100, 200 );
+ellipse(400, 600, 100, 200 );
+ellipse(600, 400, 100, 200 );
+ellipse(600, 300, 100, 200 );
+ellipse(500, 200, 100, 200 );
+ellipse(500, 600, 100, 200 );
+ellipse(200, 400, 100, 200 );
+ellipse(200, 300, 100, 200 );
+ellipse(200, 200, 100, 200 );
+ellipse(200, 600, 100, 200 );
+}
+function greenbeans() {
+fill (54, 119, 39)
+ellipse(400, 400, 300, 25 );
+ellipse(400, 200, 300, 25 );
+ellipse(400, 600, 300, 25 );
+ellipse(600, 400, 300, 25 );
+ellipse(600, 300, 300, 25 );
+ellipse(500, 200, 300, 25 );
+ellipse(500, 600, 300, 25 );
+ellipse(200, 400, 300, 25 );
+ellipse(200, 300, 300, 25 );
+ellipse(200, 200, 300, 25 );
+ellipse(200, 600, 300, 25 );
+}
+function salsa1() {
+fill(204, 51, 24)
+ellipse(400, 400, 300, 150 );
+ellipse(400, 600, 300, 150 );
+}
+function salsa2() {
+fill(221, 60, 11)
+ellipse(400, 400, 300, 150 );
+ellipse(400, 600, 300, 150 );
+}
+function salsa3() {
+fill(221, 11, 25)
+ellipse(400, 400, 300, 150 );
+ellipse(400, 600, 300, 150 );
+}
+</script>
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+
+</script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
 </html>
+
+
